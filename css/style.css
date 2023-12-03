@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 30px auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+nav{
+    margin-top: -100px;
+    margin-left: 480px;
+    max-width: 950px;
+    position: fixed;
+    width: 950px;
+}
+
+
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.container{
+    margin: 150px auto;
+    max-width:1000px;
+    min-height: 450px;
+    background-color: gray;
+}
+
+section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.relative{
+    position: relative;
+    font-size: x-large;
+    text-transform: uppercase;
+    margin: 40px;
+    max-width: 150px;
+    height: 150px;
+    background-color: red;
+    z-index: 2;
+}
+
+.absolute{
+    margin: -150px 160px;
+    position: absolute;
+    font-size: x-large;
+    text-transform: uppercase;
+    max-width: 150px;
+    height: 150px;
+    background-color: yellow;
+    z-index: 1;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+thead{
+    font-weight: bolder;
+    background-color: purple;
+}
+
+.tdGreen{
+    background-color: green;
+}
+
+.tdRed{
+    background-color: rgb(128, 0, 0);
+}
+
+td:hover{
+    background-color: yellow;
+}
+
+.float{
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    border: 3px solid black;
+    float: left;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.hr2{
+    margin-top: 200px;
+}
+
+img{
+    margin: 75px;
+}
+
+video{
+    width: 100%;
+}
+
+audio{
+    margin: 75px;
+}
+
+.text{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    background-color: black;
+    text-align: justify;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+
+span{
+    color: white;
+}
+
+.div{
+    color: red;
+}
+

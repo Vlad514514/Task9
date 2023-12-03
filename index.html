@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="NavBar">
+                <li><a href="#position">Позиціонування</a></li>
+                <li><a href="#table">Таблиці</a></li>
+                <li><a href="#float">Відступи</a></li>
+                <li><a href="#span_div">Лінійні та блокові теги</a></li>
+                <li><a href="#media">Медіа</a></li>
+                <li><a href="#text">Текст</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="position">
+            <div class="WrapBlocks">
+                <div class="relative">relative<br> z-index:2</div>
+                <div class="absolute">absolute <br> z-index:1</div>
+            </div>
+            <hr>
+        </section>
+
+
+        <section id="table">
+            <div class="WrapTable">
+                <table>
+                    <thead>
+                        <td>Понеділок</td>
+                        <td>Вівторок</td>
+                        <td>Середа</td>
+                        <td>Четвер</td>
+                        <td>П'ятниця</td>
+                        <td>Субота</td>
+                        <td>Неділя</td>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Бокс</td>
+                            <td>Плавання</td>
+                            <td>Велопрогулка</td>
+                            <td>Бокс</td>
+                            <td>Плавання</td>
+                            <td>Велопрогулка</td>
+                            <td class="tdRed" rowspan="3">Вихідний</td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>Англ. <br>мова</td>
+                            <td></td>
+                            <td>Англ. <br>мова</td>
+                            <td></td>
+                            <td>Англ. <br>мова</td>
+<!--                             <td></td> -->
+                        </tr>
+
+                        <tr>
+                            <td>Автошкола</td>
+                            <td></td>
+                            <td>Автошкола</td>
+                            <td></td>
+                            <td>Автошкола</td>
+                            <td></td>
+<!--                             <td></td> -->
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <td class="tdGreen"></td>
+                        <td class="tdGreen"></td>
+                        <td class="tdGreen"></td>
+                        <td class="tdGreen"></td>
+                        <td class="tdGreen"><br></td>
+                        <td class="tdGreen"></td>
+                        <td class="tdGreen"></td>
+                    </tfoot>
+                </table>
+                <hr>
+            </div>
+        </section>
+
+
+        <section id="float">
+            <div class="WrapFloat">
+                <div class="float"></div>
+                <div class="float"></div>
+                <div class="float"></div>
+                <div class="float"></div>
+            </div>
+
+        </section>
+
+        <hr class="hr2">
+
+        <section id="span_div">
+            <ul>
+                <li><span>span</span></li>
+                <li><span>span</span></li>
+                <li><span>span</span></li>
+                <li>
+                    <div class="div">div</div>
+                </li>
+                <li>
+                    <div class="div">div</div>
+                </li>
+                <li>
+                    <div class="div">div</div>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="media">
+            <img src="./img/img1.jpg" alt="picture">
+
+            <video src="./video/182970 (540p).mp4" controls></video>
+
+            <audio src="./audio/ukranska_melodija_-_bukovina_(z3.fm).mp3" controls></audio>
+        </section>
+
+        <hr>
+        
+        <section id="text">
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis obcaecati quibusdam esse quo magnam, iure, dolore ducimus, tempora animi nostrum distinctio. Possimus ipsa optio et, cum maiores amet ipsam?
+            </div>
+        </section>
+    </div>
+</body>
+</html>
